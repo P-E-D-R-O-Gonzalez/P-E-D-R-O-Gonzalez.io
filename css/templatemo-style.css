@@ -106,7 +106,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 #pedro-meme{
-	background-image: url(images/pedro-meme.gif");
+	background-image: url("https://github.com/P-E-D-R-O-Gonzalez/P-E-D-R-O-Gonzalez.io/blob/d7d702aacd84c66b798e2049cc4adf35b95544f0/images/pedro-meme.gif");
   	background-repeat: repeat-x;
 	padding:15%;
 }
@@ -376,6 +376,7 @@ p:last-child { margin-bottom: 0; }
 	.content-text { padding: 30px 25px; }
 	.content-text-gallery { padding: 5px; }
 }
+
 
 
 
