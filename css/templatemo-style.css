@@ -106,7 +106,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 .site-title-text div{
-	background-image: url(".gif");
+	background-image: url("https://c.tenor.com/m08ZsYu5P8kAAAAd/tenor.gif");
   	background-repeat: repeat-y;
 }
 
@@ -375,4 +375,5 @@ p:last-child { margin-bottom: 0; }
 	.content-text { padding: 30px 25px; }
 	.content-text-gallery { padding: 5px; }
 }
+
 
