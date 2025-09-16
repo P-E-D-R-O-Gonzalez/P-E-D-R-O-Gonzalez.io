@@ -106,7 +106,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 #pedro-meme{
-	background-image: url(images\pedro-meme.gif");
+	background-image: url(images/pedro-meme.gif");
   	background-repeat: repeat-x;
 	padding:15%;
 }
@@ -376,6 +376,7 @@ p:last-child { margin-bottom: 0; }
 	.content-text { padding: 30px 25px; }
 	.content-text-gallery { padding: 5px; }
 }
+
 
 
 
