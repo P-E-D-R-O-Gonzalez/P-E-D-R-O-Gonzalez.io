@@ -105,9 +105,9 @@ p:last-child { margin-bottom: 0; }
     position: relative;
 }
 
-.site-title-text div{
+#pedro-meme{
 	background-image: url("https://c.tenor.com/m08ZsYu5P8kAAAAd/tenor.gif");
-  	background-repeat: repeat-y;
+  	background-repeat: repeat-x;
 }
 
 .site-title-text span {
@@ -375,5 +375,6 @@ p:last-child { margin-bottom: 0; }
 	.content-text { padding: 30px 25px; }
 	.content-text-gallery { padding: 5px; }
 }
+
 
 
