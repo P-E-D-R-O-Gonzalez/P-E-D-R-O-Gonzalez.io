@@ -105,6 +105,11 @@ p:last-child { margin-bottom: 0; }
     position: relative;
 }
 
+.site-title-text div{
+	background-image: url(".gif");
+  	background-repeat: repeat-y;
+}
+
 .site-title-text span {
 	transform: translateY(0%);
 	opacity: 0;
@@ -370,3 +375,4 @@ p:last-child { margin-bottom: 0; }
 	.content-text { padding: 30px 25px; }
 	.content-text-gallery { padding: 5px; }
 }
+
