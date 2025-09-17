@@ -7,7 +7,7 @@ http://www.templatemo.com/tm-480-story
 */
 
 body, html { overflow-x: hidden; }
-
+img {width:90%}
 /* Preloader */
 
 #preloader {
@@ -79,10 +79,6 @@ p:last-child { margin-bottom: 0; }
 	position: relative;
 	height: auto;
 	min-height: 200px;
-}
-
-.content-text img {
-	width:25%;
 }
 
 .box {
@@ -380,6 +376,7 @@ p:last-child { margin-bottom: 0; }
 	.content-text { padding: 30px 25px; }
 	.content-text-gallery { padding: 5px; }
 }
+
 
 
 
