@@ -7,5 +7,3 @@ Bootstrap: http://getbootstrap.com/
 Flex Slider: https://github.com/woothemes/FlexSlider
 
 Backstretch: http://srobbin.com/jquery-plugins/backstretch/
-
-Font Awesome Icons: https://fortawesome.github.io/Font-Awesome/icons/
