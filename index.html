@@ -11,7 +11,7 @@
         <title>The Portfolio - Pedro Gonzalez</title>
 <!-- The Story Theme http://www.templatemo.com/tm-480-story-->
         <!-- load stylesheets -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">                                                <!-- Bootstrap style -->
+        <link rel="preload" href="css/bootstrap.min.css" as="style">                                                <!-- Bootstrap style -->
         <link rel="stylesheet" href="css/flexslider.css">                                                   <!-- Flexslider style -->       
         <link rel="stylesheet" href="css/templatemo-style.css">                                             <!-- Templatemo style -->
     </head>
@@ -19,14 +19,14 @@
     <body class="page">    
         <!-- background images -->
         <div class="page-bg-imgs-list">
-            <img src="images/bg7.jpg" id="page-1-img" class="main-img" alt="About" fetchpriority="high" loading="eager">
-            <img src="images/bg2.jpg" id="page-4-img" alt="Computer Science">
-            <img src="images/bg3.jpg" id="page-3-img" alt="Cyber">
-            <img src="images/bg6.jpg" id="page-2-img" alt="Resume">
-            <img src="images/bg5.jpg" id="page-6-img" alt="Soccer">
-            <img src="images/bg4.jpg" id="page-5-img" alt="Contact">
-            <img src="images/bg8.jpg" id="page-7-img" alt="ASI">
-            <img src="images/bg1.jpg" id="page-8-img" alt="Involvement">
+            <img data-src="images/bg7.jpg" id="page-1-img" class="main-img" alt="About" fetchpriority="high" loading="eager">
+            <img data-src="images/bg2.jpg" id="page-4-img" alt="Computer Science">
+            <img data-src="images/bg3.jpg" id="page-3-img" alt="Cyber">
+            <img data-src="images/bg6.jpg" id="page-2-img" alt="Resume">
+            <img data-src="images/bg5.jpg" id="page-6-img" alt="Soccer">
+            <img data-src="images/bg4.jpg" id="page-5-img" alt="Contact">
+            <img data-src="images/bg8.jpg" id="page-7-img" alt="ASI">
+            <img data-src="images/bg1.jpg" id="page-8-img" alt="Involvement">
             
         </div>
         <div id="slider"></div> <!-- do not remove until js patch -->
@@ -336,10 +336,11 @@ Driven by purpose and resilience, Pedro is committed to empowering underrepresen
             </div>  <!-- .container-fluid -->
         <!-- load JS files -->
         <script src="js/jquery-1.11.3.min.js"></script> <!-- jQuery -->
-        <script src="js/jquery.flexslider-min.js"></script> <!-- Flex Slider -->
-        <script src="js/jquery.backstretch.min.js"></script> <!-- Backstretch http://srobbin.com/jquery-plugins/backstretch/ -->
-        <script src="js/templatemo-script.js"></script> <!-- Templatemo scripts -->
+        <script src="js/jquery.flexslider-min.js" defer></script> <!-- Flex Slider -->
+        <script src="js/jquery.backstretch.min.js" defer></script> <!-- Backstretch http://srobbin.com/jquery-plugins/backstretch/ -->
+        <script src="js/templatemo-script.js" defer></script> <!-- Templatemo scripts -->
     </body>
 </html>
+
 
 
