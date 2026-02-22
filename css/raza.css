@@ -7,7 +7,7 @@ h1
 {
     display: flex;
     flex-wrap: wrap;
-    padding:20px;
+    padding:5%;
  }
 
 .flex-container img 
