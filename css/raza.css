@@ -7,13 +7,14 @@ h1
 {
     display: flex;
     flex-wrap: wrap;
-    padding:10%;
+    padding:20px;
  }
 
 .flex-container img 
 { 
-    width: 33.333%;
+    width: 30%;
     height: auto;
+    padding:20px;
 }
 
 @media ( max-width: 50em ) 
