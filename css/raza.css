@@ -12,7 +12,7 @@ h1
     padding:5%;
  }
 
-.flex-container img 
+.flex-container img, p 
 { 
     width: 33.333%;
     height: auto;
