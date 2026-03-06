@@ -6,7 +6,7 @@ h1
 
 p
 {
-    overflow:auto;
+    overflow-x:auto;
     border-style: dashed;
 }
 
