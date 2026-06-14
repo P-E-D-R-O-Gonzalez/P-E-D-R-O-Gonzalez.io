@@ -1,9 +1,1 @@
-Website CREDITS
-
-The Story Theme: http://www.templatemo.com/tm-480-story
-
-Bootstrap: http://getbootstrap.com/
-
-Flex Slider: https://github.com/woothemes/FlexSlider
-
-Backstretch: http://srobbin.com/jquery-plugins/backstretch/
+Made By Pedro for Pedro
