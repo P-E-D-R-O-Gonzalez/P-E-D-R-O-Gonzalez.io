@@ -3,8 +3,8 @@
 
     const desktop = window.matchMedia('(hover: hover) and (pointer: fine)');
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-    const lifetime = 220;
-    const dotCount = 12;
+    const lifetime = 600;
+    const dotCount = 36;
     let layer = null;
     let dots = [];
     let nextDot = 0;
@@ -56,7 +56,7 @@
         dots.forEach(dot => {
             if (dot.born === null) return;
             const remaining = Math.max(0, 1 - (now - dot.born) / lifetime);
-            dot.element.style.opacity = String(remaining * 0.45);
+            dot.element.style.opacity = String(remaining * 0.9);
             dot.element.style.transform = `translate(${dot.x}px, ${dot.y}px) translate(-50%, -50%) scale(${0.3 + remaining * 0.7})`;
             if (remaining > 0) active = true;
             else dot.born = null;
