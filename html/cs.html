@@ -1,11 +1,14 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="..\css\style.css">
+        <title>Computer Science | Pedro Gonzalez</title>
+        <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/cursor-trail.css">
         <script src="../js/cursor-trail.js" defer></script>
     </head>
-    <body>
+    <body class="cs">
         <ul class="nav">
             <li><a href="../index.html" class="nav-box">Home</a></li>
             <!--<li><a href="raza.html" class="nav-box">Raza</a></li> to be integrated with involvement-->
@@ -15,42 +18,180 @@
             <li><a href="resume.html" class="nav-box">Resume</a></li>
             <li><a href="involvement.html" class="nav-box">Involvement</a></li>
         </ul>
-        <h2 class="titles">Computer Science</h2>
-        <div class="content-text">
-            <h4>Experience</h4>
-            <a href="https://action.ucsb.edu/2025-action-summer-research-experience-ucsb" <img src="../images/actionLogo.webp" alt="Action AI Logo"></a>
-            <a href="https://ridesplits.com" <img src="../images/rsLaunch.jpg" alt="Ridesplits team at launch event"></a>
-            <h4>Certs</h4>
-            <a href="https://verify.skilljar.com/c/73nn6eajzosv" <img src="../images/Claude101.png" alt="claude 101 certification"></a>
-            <img src="../images/ResponsiveWebDesignCert.png" alt="free code camp responsive web design certification">
-            <a href="https://verify.skilljar.com/c/obaoesairefg" <img src="../images/AI_limits.png" alt="ai limits certification"></a>
-            <h4>Projects</h4>
-            <p>Fontana Aware</p>
-            <a href="https://fontanaware.org"><img src="../images/fontanawarehomepage.png" alt="Fontanaware Screenshot"></a>
-            <p>Pitstop Notes</p>
-            <a href="https://pitstopnotes.com"><img src="../images/pitstopNotes.png" alt="pitstopnotes Screenshot"></a>
-            <p>FrasesLit</p>
-            <a href="https://chromewebstore.google.com/detail/fraseslit/febklkinioiflpinbdmiiklmbhmkeoek?hl=en-US"><img src="../images/frasesLit3Dark.jpg" alt="FrasesLit Screenshot"></a>
-            <p>Yotes F@h Team Lead</p>
-            <a href="https://stats.foldingathome.org/team/1067775"><img src="../images/cseClubModernIcon.png" alt="CSE club Logo" loading="lazy"></a>
-            <a href="https://stats.foldingathome.org/team/1067775"><img src="../images/pc.gif" alt="PC"></a>
-            <p>Gato Done</p>
-            <a href="https://test.pypi.org/project/gatoDone-PedroGonzalez/0.0.1/" <img src="../images/gatoDone.png" loading="lazy" alt="Gato Done package"></a>
-            <p>Comando Type</p>
-            <img src="../images/commando-type.png" alt="Comando Type NPM package" loading="lazy">
-            <p>Wizard's Escape</p>
-            <img src="../images/map.jpg" alt="wizard's escape map">
-            <img src="../images/winScreen.jpg" alt="wizard's escape win screen">
-            <p>World Game</p>
-            <a href="https://p-e-d-r-o-gonzalez.itch.io/worldgame"><img src="../images/worldGameScreenshot.png" alt="World Game Screenshot"></a>
-            <p>FlagaTab</p>
-            <a href="https://chromewebstore.google.com/detail/flagatab/nbgaommcjgohahpldcbfpcbdfbmnhcfo"><img src="../images/flagatab.gif" alt="Flagatab Screenshot"></a>
-            <p>Virtual Machines Workshop</p>
-            <img src="../images/vmWorkshop.jpg" alt="vm workshop">
-            <p>Counting Sheep Sleep App</p>
-            <a href="https://countingsheeplanding.com"><img src="../images/ccHome.png" alt="Counting Sheep Screenshot"></a>
-            <br>
-        </div>
+        <main class="cs-page">
+            <header class="cs-hero">
+                <h1>Computer Science</h1>
+                <p>Building at the intersection of artificial intelligence, cybersecurity, and social impact.<br>Explore my research, community technology, and independent projects.</p>
+                <div class="cs-actions">
+                    <a href="#featured" class="cs-btn cs-btn-primary">Explore projects</a>
+                    <a href="resume.html" class="cs-btn">View résumé</a>
+                    <a href="contact.html" class="cs-btn">Get in touch</a>
+                </div>
+            </header>
+
+            <section id="featured" class="cs-section">
+                <h2>Featured projects</h2>
+                <p class="cs-intro">Community resources, independent web projects, and browser tools. Select an image or its text link to explore the project.</p>
+                <div class="cs-grid">
+                    <article class="cs-card">
+                        <a href="https://fontanaware.org" class="cs-media"><img src="../images/fontanawarehomepage.png" alt="Visit Fontana Aware — homepage preview"></a>
+                        <div class="cs-body">
+                            <p class="cs-tag">Civic technology</p>
+                            <h3>Fontana Aware</h3>
+                            <p>A civic information platform built to make local resources more accessible. The initiative has expanded into IE Aware.</p>
+                            <a href="https://fontanaware.org">Explore Fontana Aware</a>
+                        </div>
+                    </article>
+                    <article class="cs-card">
+                        <a href="https://pitstopnotes.com" class="cs-media"><img src="../images/pitstopNotes.png" alt="Visit Pitstop Notes — project preview"></a>
+                        <div class="cs-body">
+                            <p class="cs-tag">Web project</p>
+                            <h3>Pitstop Notes</h3>
+                            <p>Explore the live project and its interface.</p>
+                            <a href="https://pitstopnotes.com">Visit Pitstop Notes</a>
+                        </div>
+                    </article>
+                    <article class="cs-card">
+                        <a href="https://chromewebstore.google.com/detail/fraseslit/febklkinioiflpinbdmiiklmbhmkeoek?hl=en-US" class="cs-media"><img src="../images/frasesLit3Dark.jpg" alt="View FrasesLit in the Chrome Web Store — extension preview"></a>
+                        <div class="cs-body">
+                            <p class="cs-tag">Chrome extension</p>
+                            <h3>FrasesLit</h3>
+                            <p>View the extension, screenshots, and details on the Chrome Web Store.</p>
+                            <a href="https://chromewebstore.google.com/detail/fraseslit/febklkinioiflpinbdmiiklmbhmkeoek?hl=en-US">View FrasesLit</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="cs-section">
+                <h2>Research &amp; experience</h2>
+                <div class="cs-grid cs-grid-2">
+                    <article class="cs-card">
+                        <a href="https://action.ucsb.edu/2025-action-summer-research-experience-ucsb" class="cs-media"><img src="../images/actionLogo.webp" alt="Explore the ACTION summer research program at UC Santa Barbara"></a>
+                        <div class="cs-body">
+                            <p class="cs-tag">AI security research</p>
+                            <h3>ACTION NSF AI Institute</h3>
+                            <p>As a research intern at UC Santa Barbara, I developed RedactBench, an automated framework for evaluating LLM-based redactions.</p>
+                            <a href="https://action.ucsb.edu/2025-action-summer-research-experience-ucsb">About the research program</a>
+                        </div>
+                    </article>
+                    <article class="cs-card">
+                        <a href="https://ridesplits.com" class="cs-media"><img src="../images/rsLaunch.jpg" alt="Visit Ride Splits — team at the launch event"></a>
+                        <div class="cs-body">
+                            <p class="cs-tag">Project management</p>
+                            <h3>Ride Splits</h3>
+                            <p>Coordinated team onboarding and project workflows, and contributed an AI chatbot feature to support the platform's users.</p>
+                            <a href="https://ridesplits.com">Explore Ride Splits</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="cs-section">
+                <h2>More projects &amp; workshops</h2>
+                <div class="cs-grid">
+                    <article class="cs-card">
+                        <div class="cs-media cs-media-pair">
+                            <a href="https://stats.foldingathome.org/team/1067775"><img src="../images/cseClubModernIcon.png" alt="View Yotes Folding@home team statistics — CSE Club logo" loading="lazy"></a>
+                            <a href="https://stats.foldingathome.org/team/1067775"><img src="../images/pc.gif" alt="View Yotes Folding@home team statistics — computer setup" loading="lazy"></a>
+                        </div>
+                        <div class="cs-body">
+                            <h3>Yotes Folding@home</h3>
+                            <p>Team lead for a distributed computing initiative.</p>
+                            <a href="https://stats.foldingathome.org/team/1067775">View team statistics</a>
+                        </div>
+                    </article>
+                    <article class="cs-card">
+                        <a href="https://test.pypi.org/project/gatoDone-PedroGonzalez/0.0.1/" class="cs-media"><img src="../images/gatoDone.png" alt="View Gato Done version 0.0.1 on TestPyPI" loading="lazy"></a>
+                        <div class="cs-body">
+                            <h3>Gato Done</h3>
+                            <p>Python package published on TestPyPI.</p>
+                            <a href="https://test.pypi.org/project/gatoDone-PedroGonzalez/0.0.1/">View package</a>
+                        </div>
+                    </article>
+                    <article class="cs-card">
+                        <div class="cs-media"><img src="../images/commando-type.png" alt="Comando Type package preview" loading="lazy"></div>
+                        <div class="cs-body">
+                            <h3>Comando Type</h3>
+                            <p>Terminal command typing game.</p>
+                        </div>
+                    </article>
+                    <article class="cs-card">
+                        <div class="cs-media cs-media-pair">
+                            <img src="../images/map.jpg" alt="Wizard's Escape game map" loading="lazy">
+                            <img src="../images/winScreen.jpg" alt="Wizard's Escape completion screen" loading="lazy">
+                        </div>
+                        <div class="cs-body">
+                            <h3>Wizard's Escape</h3>
+                            <p>Game project: level map and completion screen.</p>
+                        </div>
+                    </article>
+                    <article class="cs-card">
+                        <a href="https://p-e-d-r-o-gonzalez.itch.io/worldgame" class="cs-media"><img src="../images/worldGameScreenshot.png" alt="Explore World Game on itch.io — game preview" loading="lazy"></a>
+                        <div class="cs-body">
+                            <h3>World Game</h3>
+                            <p>Browser game published on itch.io.</p>
+                            <a href="https://p-e-d-r-o-gonzalez.itch.io/worldgame">Play World Game</a>
+                        </div>
+                    </article>
+                    <article class="cs-card">
+                        <a href="https://chromewebstore.google.com/detail/flagatab/nbgaommcjgohahpldcbfpcbdfbmnhcfo" class="cs-media"><img src="../images/flagatab.gif" alt="View FlagaTab in the Chrome Web Store — extension preview" loading="lazy"></a>
+                        <div class="cs-body">
+                            <h3>FlagaTab</h3>
+                            <p>Chrome extension available on the Chrome Web Store.</p>
+                            <a href="https://chromewebstore.google.com/detail/flagatab/nbgaommcjgohahpldcbfpcbdfbmnhcfo">View FlagaTab</a>
+                        </div>
+                    </article>
+                    <article class="cs-card">
+                        <div class="cs-media"><img src="../images/vmWorkshop.jpg" alt="Virtual Machines Workshop" loading="lazy"></div>
+                        <div class="cs-body">
+                            <h3>Virtual Machines Workshop</h3>
+                            <p>Hands-on workshop introducing virtual machines.</p>
+                        </div>
+                    </article>
+                    <article class="cs-card">
+                        <a href="https://countingsheeplanding.com" class="cs-media"><img src="../images/ccHome.png" alt="Visit Counting Sheep — app homepage preview" loading="lazy"></a>
+                        <div class="cs-body">
+                            <h3>Counting Sheep</h3>
+                            <p>Sleep app project.</p>
+                            <a href="https://countingsheeplanding.com">Visit Counting Sheep</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="cs-section">
+                <h2>Certifications &amp; learning</h2>
+                <div class="cs-grid">
+                    <article class="cs-card">
+                        <a href="https://verify.skilljar.com/c/73nn6eajzosv" class="cs-media"><img src="../images/Claude101.png" alt="Verify Claude 101 certificate" loading="lazy"></a>
+                        <div class="cs-body">
+                            <h3>Claude 101</h3>
+                            <a href="https://verify.skilljar.com/c/73nn6eajzosv">Verify certificate</a>
+                        </div>
+                    </article>
+                    <article class="cs-card">
+                        <div class="cs-media"><img src="../images/ResponsiveWebDesignCert.png" alt="freeCodeCamp Responsive Web Design certificate" loading="lazy"></div>
+                        <div class="cs-body">
+                            <h3>Responsive Web Design</h3>
+                            <p>freeCodeCamp</p>
+                        </div>
+                    </article>
+                    <article class="cs-card">
+                        <a href="https://verify.skilljar.com/c/obaoesairefg" class="cs-media"><img src="../images/AI_limits.png" alt="Verify AI limits certificate" loading="lazy"></a>
+                        <div class="cs-body">
+                            <h3>AI limits</h3>
+                            <a href="https://verify.skilljar.com/c/obaoesairefg">Verify certificate</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="cs-cta">
+                <h2>Let's build something useful.</h2>
+                <p>Interested in my work or exploring a collaboration?</p>
+                <a href="contact.html" class="cs-btn cs-btn-primary">Get in touch</a>
+            </section>
+        </main>
     </body>
 </html>
-                                
