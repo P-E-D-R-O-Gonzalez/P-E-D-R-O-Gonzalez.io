@@ -15,9 +15,41 @@
             <li><a href="involvement.html" class="nav-box">Involvement</a></li>
         </ul>
         <h2 class="titles">Resume</h2>
+        <div id="resume-pages" style="display:flex;flex-direction:column;align-items:center;gap:20px;margin:20px auto;max-width:850px;padding:0 10px;"></div>
         <div class="content-text">
             <a href="../images/PedroGonzalezResume.pdf" target="_blank" rel="noopener">Open Resume in a new tab</a>
         </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+        <script>
+            (function () {
+                var url = "../images/PedroGonzalezResume.pdf";
+                var container = document.getElementById("resume-pages");
+                if (!window.pdfjsLib) return;
+                pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+                pdfjsLib.getDocument(url).promise.then(function (pdf) {
+                    var dpr = window.devicePixelRatio || 1;
+                    var chain = Promise.resolve();
+                    for (var i = 1; i <= pdf.numPages; i++) {
+                        (function (n) {
+                            chain = chain.then(function () {
+                                return pdf.getPage(n).then(function (page) {
+                                    var viewport = page.getViewport({ scale: 2 * dpr });
+                                    var canvas = document.createElement("canvas");
+                                    canvas.width = viewport.width;
+                                    canvas.height = viewport.height;
+                                    canvas.setAttribute("role", "img");
+                                    canvas.setAttribute("aria-label", "Pedro Gonzalez resume page " + n);
+                                    canvas.style.cssText = "width:100%;height:auto;display:block;background:white;box-shadow:0 4px 20px rgba(255,255,255,0.15);cursor:pointer;";
+                                    canvas.addEventListener("click", function () { window.open(url, "_blank", "noopener"); });
+                                    container.appendChild(canvas);
+                                    return page.render({ canvasContext: canvas.getContext("2d"), viewport: viewport }).promise;
+                                });
+                            });
+                        })(i);
+                    }
+                });
+            })();
+        </script>
         <p>Currently Looking for Summer + Spring 2027 Internship/Part-time/Full-time</p>
     </body>
 </html>
