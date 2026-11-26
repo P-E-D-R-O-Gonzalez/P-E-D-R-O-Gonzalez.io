@@ -93,3 +93,19 @@ a {
 a:hover {
     color: #00ff00;
 }
+.fit-photos,
+.fit-list {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.fit-photos {
+    max-height: calc((100vh - 210px) * 0.73);
+}
+
+.fit-list {
+    max-height: calc((100vh - 210px) * 0.27);
+}
