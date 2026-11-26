@@ -127,3 +127,12 @@ a:hover {
         height: auto;
     }
 }
+
+#about-photo {
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+#about-photo.fading {
+    opacity: 0;
+}
